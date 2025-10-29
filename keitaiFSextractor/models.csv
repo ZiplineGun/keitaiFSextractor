@@ -1,0 +1,557 @@
+Phone_Model,Service,Manufacturer,Storage_Type,Chip_Name,File_System,FS_Parameter,FTL,FTL_Parameter,Java_Type,Java_Path,Java_Tool,Media_Type
+CA-01C,FOMA,Casio/NEC,,,YAFFS2 (unsupported),,-,,fs_path,,keitai-tools,fs_extension
+F2051,FOMA,Fujitsu,,,,,,,fs_path,Sanremo\Java,keitai-tools,fs_extension
+F2102V,FOMA,Fujitsu,,,,,,,fs_path,Sanremo\Java,keitai-tools,fs_extension
+F900i,FOMA,Fujitsu,NAND,MB84VQ6M6M7C2-n,FAT,,F900i FTL,-,fs_path,Sanremo\Java,keitai-tools,fs_extension
+F900iT,FOMA,Fujitsu,NAND,MB84VQ6M6M7C2-n,FAT,,F900i FTL,-,fs_path,Sanremo\Java,keitai-tools,fs_extension
+F880iES,FOMA,Fujitsu,,,,,,,fs_path,Sanremo\Java,keitai-tools,fs_extension
+F900iC,FOMA,Fujitsu,,,,,,,fs_path,Sanremo\Java,keitai-tools,fs_extension
+F700i,FOMA,Fujitsu,,,,,,,fs_path,Sanremo\Java,keitai-tools,fs_extension
+F700iS,FOMA,Fujitsu,,,,,,,fs_path,Sanremo\Java,keitai-tools,fs_extension
+F901iC,FOMA,Fujitsu,SuperAND,M6MLE277B4ZAWG-a,FAT,,-,-,fs_path,Sanremo\Java,keitai-tools,fs_extension
+F881iES,FOMA,Fujitsu,,,,,,,fs_path,Sanremo\Java,keitai-tools,fs_extension
+F901iS,FOMA,Fujitsu,,,,,,,fs_path,Sanremo\Java,keitai-tools,fs_extension
+F902i,FOMA,Fujitsu,,,,,,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F902iS,FOMA,Fujitsu,,,,,,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F702iD,FOMA,Fujitsu,,,,,,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F882iES,FOMA,Fujitsu,,,,,,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F903i,FOMA,Fujitsu,NAND,,FAT16,,SH/D904i FTL,-,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F903iX,FOMA,Fujitsu,NAND,,FAT16,,SH/D904i FTL,-,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F703i,FOMA,Fujitsu,NAND,,FAT16,,SH/D904i FTL,-,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F904i,FOMA,Fujitsu,NAND,,FAT16,,SH/D904i FTL,-,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F704i,FOMA,Fujitsu,NAND,,FAT16,,SH/D904i FTL,-,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F905i,FOMA,Fujitsu,NAND,,FAT32,,B4B4 FTL,-,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F905iTW,FOMA,Fujitsu,NAND,,FAT32,,B4B4 FTL,-,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F905iBiz,FOMA,Fujitsu,NAND,,FAT32,,B4B4 FTL,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F801i,FOMA,Fujitsu,OneNAND,,Samsung RFS,,XSR2,8,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F705i,FOMA,Fujitsu,OneNAND,,Samsung RFS,,XSR2,8,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F906i,FOMA,Fujitsu,OneNAND,,Samsung RFS,,XSR2,8,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F706i,FOMA,Fujitsu,OneNAND,,Samsung RFS,,XSR2,8,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F883i,FOMA,Fujitsu,NAND,,FAT16,,SH/D904i FTL,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F883iES,FOMA,Fujitsu,NAND,,FAT16,,SH/D904i FTL,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F883iESS,FOMA,Fujitsu,NAND,,FAT16,,SH/D904i FTL,-,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F883iS,FOMA,Fujitsu,NAND,,FAT16,,SH/D904i FTL,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F884i,FOMA,Fujitsu,NAND,,FAT32,,SH/D904i FTL,-,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F884iES,FOMA,Fujitsu,NAND,,Samsung RFS,,XSR2,8,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-01A,FOMA,Fujitsu,OneNAND,,Samsung RFS,,XSR3,-,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-02A,FOMA,Fujitsu,OneNAND,,Samsung RFS,,XSR3,-,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-03A,FOMA,Fujitsu,OneNAND,,Samsung RFS,,XSR3,-,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-04A,FOMA,Fujitsu,mDOC (part_08),,FAT,,-,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-05A,FOMA,Fujitsu,,,,,,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-06A,FOMA,Fujitsu,OneNAND,,Samsung RFS,,XSR2,8,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-07A,FOMA,Fujitsu,,,,,,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-08A,FOMA,Fujitsu,OneNAND,,Samsung RFS,,XSR3,-,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-09A,FOMA,Fujitsu,mDOC (part_08),,FAT32,,-,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-10A,FOMA,Fujitsu,,,,,,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-01B,FOMA,Fujitsu,mDOC (part_08),,FAT32,,-,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-02B,FOMA,Fujitsu,OneNAND,,Samsung RFS,,FSR_F,1A,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-03B,FOMA,Fujitsu,OneNAND,,Samsung RFS,,FSR_F,1A,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-04B,FOMA,Fujitsu,OneNAND,,Samsung RFS,,FSR_F,1A,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-06B,FOMA,Fujitsu,OneNAND,,Samsung RFS,,FSR_F (unsupported),1A,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-07B,FOMA,Fujitsu,OneNAND,,Samsung RFS,,FSR_F,1A,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-08B,FOMA,Fujitsu,,,,,,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-09B,FOMA,Fujitsu,MDA,TY00D0012167KA-n,FAT,,-,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-10B,FOMA,Fujitsu,,,FAT,,-,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-01C,FOMA,Fujitsu,OneNAND,,Samsung RFS,,FSR_F (unsupported),1A,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-02C,FOMA,Fujitsu,MDA,,FAT,,-,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-03C,FOMA,Fujitsu,MDA,,FAT,,-,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-04C,FOMA,Fujitsu,OneNAND,,Samsung RFS,,FSR_F,1A,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-05C,FOMA,Fujitsu,OneNAND,,Samsung RFS,,FSR_F,1A,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-08C,FOMA,Fujitsu,OneNAND,,Samsung RFS,,FSR_F,1A,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-09C,FOMA,Fujitsu,OneNAND,,Samsung RFS,,FSR_F (unsupported),1A,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-10C,FOMA,Fujitsu,,,,,,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-11C,FOMA,Fujitsu,OneNAND,,Samsung RFS,,FSR_F,1A,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-02D,FOMA,Fujitsu,,,,,,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-04D,FOMA,Fujitsu,,,FAT32,,-,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+F-01E,FOMA,Fujitsu,,,,,,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+D2101V ,FOMA,Mitsubishi,,,,,,,fs_path,Sanremo\Java,keitai-tools,fs_extension
+D900i,FOMA,Mitsubishi,NOR,,DATA Structure,,-,,fs_path,Sanremo\Java,keitai-tools,fs_extension
+D901i,FOMA,Mitsubishi,SuperAND,M6MLE277B4ZAWG-a,FAT,,-,,fs_path,Sanremo\Java,keitai-tools,fs_extension
+D901iS,FOMA,Mitsubishi,SuperAND,M6MLE277B4ZAWG-a,FAT,,-,,fs_path,Sanremo\Java,keitai-tools,fs_extension
+D701i,FOMA,Mitsubishi,,,,,,,fs_path,Sanremo\Java,keitai-tools,fs_extension
+D701iWM,FOMA,Mitsubishi,,,,,,,fs_path,Sanremo\Java,keitai-tools,fs_extension
+D902i,FOMA,Mitsubishi,,,,,,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+D902iS,FOMA,Mitsubishi,,,,,,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+D702i,FOMA,Mitsubishi,,,,,,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+D702iF,FOMA,Mitsubishi,,,,,,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+D903i,FOMA,Mitsubishi,NAND,,FAT,,SH/D904i FTL,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+D903iTV,FOMA,Mitsubishi,,,FAT,,SH/D904i FTL,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+D703i,FOMA,Mitsubishi,,,FAT,,SH/D904i FTL,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+D904i,FOMA,Mitsubishi,NAND,,FAT16,,SH/D904i FTL,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+D704i,FOMA,Mitsubishi,NAND,,FAT16,,SH/D904i FTL,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+D905i,FOMA,Mitsubishi,,,FAT32,,B4B4 FTL,,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+D705i,FOMA,Mitsubishi,,,FAT16,,XSR2,8,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+D705iμ,FOMA,Mitsubishi,,,FAT16,,XSR2,8,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+D800iDS,FOMA,Mitsubishi,,,FAT16,,XSR2,8,fs_path,WcdmaMp\Java\Data,keitai-tools,fs_extension
+M702iG,FOMA,Motorola,CG2,,Intel FHS,,-,,fs_path,,keitai-tools,fs_extension
+M702iS,FOMA,Motorola,CG2,,Intel FHS,,-,,fs_path,,keitai-tools,fs_extension
+M704i,FOMA,Motorola,CG2,,Intel FHS,,-,,fs_path,,keitai-tools,fs_extension
+M1000,FOMA,Motorola,CG2,,Intel FHS,,-,,fs_path,,keitai-tools,fs_extension
+N2001,FOMA,NEC,NAND,,FAT16,,SSR200 (old flavor),,fs_path,_java,keitai-tools,fs_extension
+N2002,FOMA,NEC,NAND,,FAT16,,SSR200 (old flavor),,fs_path,_java,keitai-tools,fs_extension
+N2051,FOMA,NEC,NAND,,FAT16,,SSR200 (old flavor),,fs_path,_java,keitai-tools,fs_extension
+N2102V,FOMA,NEC,NAND,,Customized FAT16,,SSR200 (old flavor),,fs_path,_java,keitai-tools,fs_extension
+N2701,FOMA,NEC,NAND,,Customized FAT16,,SSR200 (old flavor),,fs_path,_java,keitai-tools,fs_extension
+N900i,FOMA,NEC,NAND,,Customized FAT16,,SSR200,,fs_path,_java,keitai-tools,fs_extension
+N900iS,FOMA,NEC,NAND,,Customized FAT16,,SSR200,,fs_path,_java,keitai-tools,fs_extension
+N900iG,FOMA,NEC,NAND,,Customized FAT16,,SSR200,,fs_path,_java,keitai-tools,fs_extension
+N900iL,FOMA,NEC,NAND,,Customized FAT16,,SSR200,,fs_path,_java,keitai-tools,fs_extension
+N700i,FOMA,NEC,NAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N901iC,FOMA,NEC,NAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N901iG,FOMA,NEC,,,,,,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N901iS,FOMA,NEC,OneNAND,,Samsung RFS,,XSR1,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N701i,FOMA,NEC,OneNAND,,Samsung RFS,,XSR1,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N701iECO,FOMA,NEC,,,Samsung RFS,,XSR1,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N601i ,FOMA,NEC,NAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N902i,FOMA,NEC,NAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N902iS,FOMA,NEC,NAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N902iX,FOMA,NEC,NAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N902iL,FOMA,NEC,NAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N702iD,FOMA,NEC,OneNAND,,Samsung RFS,,XSR1,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N702iS,FOMA,NEC,OneNAND,,Samsung RFS,,XSR1,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N903i,FOMA,NEC,OneNAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N703iD,FOMA,NEC,NAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N703iμ,FOMA,NEC,NAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N904i,FOMA,NEC,OneNAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N704iμ,FOMA,NEC,NAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N905i,FOMA,NEC,NAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N905iμ,FOMA,NEC,NAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N705i,FOMA,NEC,NAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N705iμ,FOMA,NEC,NAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N906i,FOMA,NEC,NAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N906iμ,FOMA,NEC,NAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N906iL,FOMA,NEC,NAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N706i,FOMA,NEC,,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N706ie,FOMA,NEC,,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N706iII,FOMA,NEC,NAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N-01A,FOMA,NEC,NAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N-02A,FOMA,NEC,NAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N-03A,FOMA,NEC,,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N-04A,FOMA,NEC,NAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N-05A,FOMA,NEC,OneNAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N-06A,FOMA,NEC,NAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N-07A,FOMA,NEC,NAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N-08A,FOMA,NEC,NAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N-09A,FOMA,NEC,NAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N-01B,FOMA,NEC,MLC,,YAFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N-02B,FOMA,NEC,MLC,,YAFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N-03B,FOMA,NEC,NAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N-04B,FOMA,NEC,"MLC, SLC",,YAFFS2,,-,,fs_path,contents3\javaap,keitai-tools,fs_extension
+N-05B,FOMA,NEC,"MLC, SLC",,YAFFS2,,-,,fs_path,contents3\javaap,keitai-tools,fs_extension
+N-06B,FOMA,NEC,SLC,,YAFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+N-07B,FOMA,NEC,"MLC, SLC",,YAFFS2,,-,,fs_path,contents3\javaap,keitai-tools,fs_extension
+N-08B,FOMA,NEC,MLC,,YAFFS2,,-,,fs_path,contents3\javaap,keitai-tools,fs_extension
+N-01C,FOMA,NEC,"MLC, SLC",,YAFFS2,,-,,fs_path,contents3\javaap,keitai-tools,fs_extension
+N-02C,FOMA,NEC,"MLC, SLC",,YAFFS2,,-,,fs_path,contents3\javaap,keitai-tools,fs_extension
+N-03C,FOMA,NEC,"MLC, SLC",,YAFFS2,,-,,fs_path,contents3\javaap,keitai-tools,fs_extension
+N-05C,FOMA,NEC,OneNAND,,YAFFS2,,-,,fs_path,contents3\javaap,keitai-tools,fs_extension
+N-02D,FOMA,NEC,OneNAND,,YAFFS2,,-,,fs_path,contents3\javaap,keitai-tools,fs_extension
+N-03D,FOMA,NEC,OneNAND,,YAFFS2,,-,,fs_path,contents3\javaap,keitai-tools,fs_extension
+N-01E,FOMA,NEC,OneNAND,,YAFFS2,,-,,fs_path,contents3\javaap,keitai-tools,fs_extension
+N-01F,FOMA,NEC,OneNAND,,YAFFS2,,-,,fs_path,contents3\javaap,keitai-tools,fs_extension
+N-01G,FOMA,NEC,OneNAND,,YAFFS2,,-,,fs_path,contents3\javaap,keitai-tools,fs_extension
+P2101V,FOMA,Panasonic,NOR,,FAT12,,FlashFX 3.00 NOR (Unsupported),,fs_path,,keitai-tools,fs_extension
+P2102V,FOMA,Panasonic,NAND,,FAT16,,SSR200 (old flavor),-,fs_path,_java,keitai-tools,fs_extension
+P2002,FOMA,Panasonic,,,,,,,,,keitai-tools,fs_extension
+P900i,FOMA,Panasonic,NAND,,Customized FAT16,,SSR200,-,fs_path,_java,keitai-tools,fs_extension
+P900iV,FOMA,Panasonic,NAND,,Customized FAT16,,SSR200,-,fs_path,_java,keitai-tools,fs_extension
+P700i,FOMA,Panasonic,NAND,,JFFS2,,-,-,fs_path,contents2\javaap,keitai-tools,fs_extension
+P901i,FOMA,Panasonic,NAND,,JFFS2,,-,-,fs_path,contents2\javaap,keitai-tools,fs_extension
+P901iS,FOMA,Panasonic,NAND,,JFFS2,,-,-,fs_path,contents2\javaap,keitai-tools,fs_extension
+P701iD,FOMA,Panasonic,NAND,,JFFS2,,-,-,fs_path,contents2\javaap,keitai-tools,fs_extension
+P851i,FOMA,Panasonic,NAND,,JFFS2,,-,-,fs_path,contents2\javaap,keitai-tools,fs_extension
+P902i,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR1,-,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P901iTV,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR1,-,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P902iS,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR1,-,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P702i,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR1,-,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P702iD,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR1,-,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P903i,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR1,-,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P903iTV,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR1,-,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P903iX,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR1,-,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P703i,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR1,-,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P703iμ,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR1,-,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P904i,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR1,-,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P704i,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR1,-,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P704iμ,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR1,-,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P905i,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P705i,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P705iμ,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P705iCL,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P906i,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P706ie,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P706iμ,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P-01A,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P-02A,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P-03A,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P-04A,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P-05A,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P-06A,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P-07A,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P-08A,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P-09A,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P-10A,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P-01B,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P-02B,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P-03B,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR2,F,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P-04B,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P-05B,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR2,F,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P-06B,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P-07B,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR2,F,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P-01C,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR2,F,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P-02C,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P-03C,FOMA,Panasonic,OneNAND,,Samsung RFS,,XSR2,C,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P-04C,FOMA,Panasonic,OneNAND,,Samsung RFS,,FSR_ll,-,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P-05C,FOMA,Panasonic,OneNAND,,Samsung RFS,,FSR_ll,-,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P-06C,FOMA,Panasonic,OneNAND,,Samsung RFS,,FSR_ll,-,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P-03D,FOMA,Panasonic,OneNAND,,Samsung RFS,,FSR_ll,-,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P-01E,FOMA,Panasonic,OneNAND,,Samsung RFS,,FSR_ll,-,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P-01F,FOMA,Panasonic,EMMC,,ext3,"0x1900000, 0x1A800000",-,,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P-01G,FOMA,Panasonic,EMMC,,ext3,"0x1900000, 0x1E500000",-,,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+P-01H,FOMA,Panasonic,EMMC,,ext3,"0x1900000, 0x1E500000",-,,fs_path,CONT2\JAVAAP,keitai-tools,fs_extension
+SA700iS,FOMA,Sanyo,,,,,,,fs_path,,keitai-tools,fs_extension
+SA800i,FOMA,Sanyo,,,,,,,fs_path,,keitai-tools,fs_extension
+SA702i,FOMA,Sanyo,,,,,,,fs_path,,keitai-tools,fs_extension
+SH2101V,FOMA,Sharp,,,,,,,fs_path,,keitai-tools,fs_extension
+SH900i,FOMA,Sharp,NOR,PF48F4400L0ZDQ0-f2,FAT16,,SH900i FTL,-c SH900i,fs_path,JAVA,keitai-tools,fs_sh900i
+SH700i,FOMA,Sharp,,,,,,,fs_path,,keitai-tools,fs_sh900i
+SH700iS,FOMA,Sharp,NOR,Concat (LRS13B7-f1 + LRS13B7-f2),FAT16,,00F0F0 Structure,-b 9,fs_path,JAVA,keitai-tools,fs_sh900i
+SH901iC,FOMA,Sharp,NOR,LRS13B4A-f2,FAT16,,00F0F0 Structure,-b 9,fs_path,JAVA,keitai-tools,fs_sh900i
+SH901iS,FOMA,Sharp,NOR,LRS13B4A-f2,FAT16,,00F0F0 Structure,-b 9,fs_path,JAVA,keitai-tools,fs_sh900i
+SH851i,FOMA,Sharp,,,,,,,fs_path,,keitai-tools,fs_extension
+SH902i,FOMA,Sharp,NOR,"LH28F1G0BNHB-PTSLZ1-f3, LH28F1G0BNHB-PTSLZ1-f4",SH902i FS,,-,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH902iS,FOMA,Sharp,SuperAND,R11A4600MRBABG-a,FAT,,-,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH902iL,FOMA,Sharp,,,,,,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH902iSL,FOMA,Sharp,SuperAND,R11A4600MRBABG-a,FAT,,-,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH702iD,FOMA,Sharp,NOR,"LH28F1G0BNHB-PTSLZ1-f1, LH28F1G0BNHB-PTSLZ1-f4",SH902i FS,,-,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH702iS,FOMA,Sharp,,,,,,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH903i,FOMA,Sharp,NAND,,FAT16,,SH/D904i FTL,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH903iTV,FOMA,Sharp,NAND,,FAT16,,SH/D904i FTL,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH703i,FOMA,Sharp,NAND,,FAT16,,SH/D904i FTL,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH904i,FOMA,Sharp,NAND,,FAT16,,SH/D904i FTL,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH704i,FOMA,Sharp,NAND,,FAT16,,SH/D904i FTL,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH905i,FOMA,Sharp,NAND,,FAT16,,B4B4 FTL,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH905iTV,FOMA,Sharp,NAND,,FAT16,,B4B4 FTL,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH705i,FOMA,Sharp,NAND,,FAT16,,SH/D904i FTL,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH705iII,FOMA,Sharp,NAND,,FAT16,,SH/D904i FTL,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH906i,FOMA,Sharp,NAND,,FAT32,,Fugue NAND,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH906iTV,FOMA,Sharp,NAND,,FAT32,,Fugue NAND,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH706i,FOMA,Sharp,NAND,,FAT16,,SH/D904i FTL,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH706ie,FOMA,Sharp,NAND,,FAT16,,SH/D904i FTL,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH706iw,FOMA,Sharp,NAND,,FAT16,,SH/D904i FTL,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH-01A,FOMA,Sharp,"NAND_A, NAND_B",,FAT32,,Fugue NAND (A+B),?0x100-0x7F400,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH-02A,FOMA,Sharp,"NAND_A, NAND_B",,FAT32,,Fugue NAND,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH-03A,FOMA,Sharp,NAND,,FAT32,,Fugue NAND (A+B),?0x100-0x7F400,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH-04A,FOMA,Sharp,"NAND_A, NAND_B",,FAT32,,Fugue NAND (A+B),?0x100-0x7F400,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH-05A,FOMA,Sharp,NAND,,FAT16,,B4B4 FTL,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH-06A,FOMA,Sharp,NAND,,FAT16,,B4B4 FTL,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH-07A,FOMA,Sharp,NAND,,FAT16,,B4B4 FTL,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH-08A,FOMA,Sharp,NAND,,FAT16,,B4B4 FTL,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH-01B,FOMA,Sharp,MDA,,FAT16,,-,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH-02B,FOMA,Sharp,MDA,,FAT16,,-,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH-03B,FOMA,Sharp,MDA,,FAT16,,-,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH-04B,FOMA,Sharp,MDA,,FAT16,,-,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH-05B,FOMA,Sharp,MDA,,FAT,,-,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH-06B,FOMA,Sharp,MDA,,FAT16 ,,-,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH-07B,FOMA,Sharp,MDA,,FAT32,,-,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH-08B ,FOMA,Sharp,MDA,,FAT32,,-,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH-09B,FOMA,Sharp,MDA,,FAT16,,-,,fs_path,SH902i\java\LIST,keitai-tools,fs_extension
+SH-01C,FOMA,Sharp,MDA,,FAT32 ,,-,,fs_path,WcdmaMp\java\Data,keitai-tools,fs_extension
+SH-02C,FOMA,Sharp,MDA,,FAT,,-,,fs_path,WcdmaMp\java\Data,keitai-tools,fs_extension
+SH-04C,FOMA,Sharp,MDA,,FAT,,-,,fs_path,WcdmaMp\java\Data,keitai-tools,fs_extension
+SH-05C,FOMA,Sharp,MDA,,FAT32,,-,,fs_path,WcdmaMp\java\Data,keitai-tools,fs_extension
+SH-06C,FOMA,Sharp,MDA,,FAT32,,-,,fs_path,WcdmaMp\java\Data,keitai-tools,fs_extension
+SH-08C,FOMA,Sharp,MDA,,FAT32,,-,,fs_path,WcdmaMp\java\Data,keitai-tools,fs_extension
+SH-09C,FOMA,Sharp,MDA,,FAT,,-,,fs_path,WcdmaMp\java\Data,keitai-tools,fs_extension
+SH-10C,FOMA,Sharp,MDA,,FAT32,,-,,fs_path,WcdmaMp\java\Data,keitai-tools,fs_extension
+SH-11C,FOMA,Sharp,MDA,,FAT32,,-,,fs_path,WcdmaMp\java\Data,keitai-tools,fs_extension
+SH-03D,FOMA,Sharp,,,FAT32,,-,,fs_path,WcdmaMp\java\Data,keitai-tools,fs_extension
+SH-03E,FOMA,Sharp,,,FAT32,,-,,fs_path,WcdmaMp\java\Data,keitai-tools,fs_extension
+SH-07F,FOMA,Sharp,,,FAT32,,-,,fs_path,WcdmaMp\java\Data,keitai-tools,fs_extension
+SO902i,FOMA,Sony Ericcson,,,Sony Ericsson Custom FS,,-,,fs_path,,keitai-tools,fs_extension
+SO902iWP+,FOMA,Sony Ericcson,,,Sony Ericsson Custom FS,,-,,fs_path,,keitai-tools,fs_extension
+SO702i,FOMA,Sony Ericcson,,,Sony Ericsson Custom FS,,-,,fs_path,,keitai-tools,fs_extension
+SO903i,FOMA,Sony Ericcson,mDOC (part_02),,FAT,,-,,fs_path,WcdmaMp\java,keitai-tools,fs_extension
+SO703i,FOMA,Sony Ericcson,mDOC (part_02),,FAT,,-,,fs_path,WcdmaMp\java,keitai-tools,fs_extension
+SO903iTV,FOMA,Sony Ericcson,mDOC (part_02),,FAT,,-,,fs_path,WcdmaMp\java,keitai-tools,fs_extension
+SO704i,FOMA,Sony Ericcson,mDOC (part_02),,FAT,,-,,fs_path,WcdmaMp\java,keitai-tools,fs_extension
+SO905i,FOMA,Sony Ericcson,mDOC (part_02),,FAT,,-,,fs_path,WcdmaMp\java,keitai-tools,fs_extension
+SO905iCS,FOMA,Sony Ericcson,mDOC (part_02),,FAT,,-,,fs_path,WcdmaMp\java,keitai-tools,fs_extension
+SO705i,FOMA,Sony Ericcson,NAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+SO906i,FOMA,Sony Ericcson,mDOC (part_02),,FAT,,-,,fs_path,WcdmaMp\java,keitai-tools,fs_extension
+SO706i,FOMA,Sony Ericcson,NAND,,JFFS2,,-,,fs_path,contents2\javaap,keitai-tools,fs_extension
+L600i,FOMA,LG,,,Qualcomm EFS2,,-,,fs_path,,keitai-tools,fs_extension
+L601i,FOMA,LG,,,Qualcomm EFS2,,-,,fs_path,,keitai-tools,fs_extension
+L602i,FOMA,LG,,,Qualcomm EFS2,,-,,fs_path,,keitai-tools,fs_extension
+L704i,FOMA,LG,,,Qualcomm EFS2,,-,,fs_path,,keitai-tools,fs_extension
+L705i,FOMA,LG,,,Qualcomm EFS2,,-,,fs_path,,keitai-tools,fs_extension
+L705iX,FOMA,LG,,,Qualcomm EFS2,,-,,fs_path,,keitai-tools,fs_extension
+L852i,FOMA,LG,,,Qualcomm EFS2,,-,,fs_path,,keitai-tools,fs_extension
+L706ie,FOMA,LG,,,Qualcomm EFS2,,-,,fs_path,,keitai-tools,fs_extension
+L-01A,FOMA,LG,,,Qualcomm EFS2,,-,,fs_path,,keitai-tools,fs_extension
+L-03A,FOMA,LG,,,Qualcomm EFS2,,-,,fs_path,,keitai-tools,fs_extension
+L-04A,FOMA,LG,,,Qualcomm EFS2,,-,,fs_path,,keitai-tools,fs_extension
+L-06A,FOMA,LG,,,Qualcomm EFS2,,-,,fs_path,,keitai-tools,fs_extension
+L-01B,FOMA,LG,,,Qualcomm EFS2,,-,,fs_path,,keitai-tools,fs_extension
+L-02B,FOMA,LG,,,Qualcomm EFS2,,-,,fs_path,,keitai-tools,fs_extension
+L-03B,FOMA,LG,,,Qualcomm EFS2,,-,,fs_path,,keitai-tools,fs_extension
+L-04B,FOMA,LG,,,Qualcomm EFS2,,-,,fs_path,,keitai-tools,fs_extension
+L-01C,FOMA,LG,,,Qualcomm EFS2,,-,,fs_path,,keitai-tools,fs_extension
+L-03C,FOMA,LG,,,Qualcomm EFS2,,-,,fs_path,,keitai-tools,fs_extension
+L-10C,FOMA,LG,,,Qualcomm EFS2,,-,,fs_path,,keitai-tools,fs_extension
+F503i,mova,Fujitsu,,,,,,,,,,
+F503iS,mova,Fujitsu,NOR,,Fujitsu SoFFS,,-,,memory_layout,,,
+F504i,mova,Fujitsu,,,,,,,,,,
+F251i,mova,Fujitsu,NOR,,FlashFX 3.00 NOR (unsupported),,-,,,,,
+F504iS,mova,Fujitsu,NOR,,Fujitsu SoFFS,,-,,memory_layout,,,
+F505i,mova,Fujitsu,NAND,,-,,F505i FTL,,memory_layout,,,
+F505iGPS,mova,Fujitsu,,,,,,,,,,
+F506i,mova,Fujitsu,,,,,,,,,,
+D503i,mova,Mitsubishi ,,,,,,,,,,
+D503iS,mova,Mitsubishi ,NOR,,-,,D503iS Structure,,,,,
+D504i,mova,Mitsubishi ,NOR,,-,,D503iS Structure,,,,,
+D505i,mova,Mitsubishi ,NOR,,-,,D505i Structure,,,,,
+D505iS,mova,Mitsubishi ,NOR,,-,,D505i Structure,,,,,
+D506i,mova,Mitsubishi ,NOR,,-,,SH900i FTL,-c D506i,,,,
+N503i,mova,NEC,NOR,,-,,N503i Structure,,,,,
+N503iS ,mova,NEC,NOR,,-,,N503i Structure,,,,,
+N504i,mova,NEC,NOR,RD28F192SJ3AM-f2,-,,M4 Structure,,,,,
+N251i,mova,NEC,,,,,,,,,,
+N504iS,mova,NEC,NOR,,-,,M4 Structure,,,,,
+N251iS,mova,NEC,NOR,,-,,M4 Structure,,,,,
+N505i,mova,NEC,,,-,,SSR200 (mova flavor),,,,,
+N505iS,mova,NEC,,,-,,SSR200 (mova flavor),,,,,
+N506i,mova,NEC,NOR,,-,,M4 Structure,,,,,
+N253i,mova,NEC,,,,,,,,,,
+N506iS,mova,NEC,NOR,,-,,M4 Structure,,,,,
+N506iSII,mova,NEC,,,,,,,,,,
+P503i,mova,Panasonic,,,,,,,,,,
+P503iS,mova,Panasonic,,,,,,,,,,
+P504i,mova,Panasonic,NOR,,FAT16,,FlashFX 3.00,,,,,
+P504iS,mova,Panasonic,NOR,,FAT12,,FlashFX 3.00,,,,,
+P251iS,mova,Panasonic,NOR,,FAT16,,FlashFX 3.00,,,,,
+P505i,mova,Panasonic,NOR,,FAT16,,FlashFX 3.00,,,,,
+P252i,mova,Panasonic,NOR,,FAT16,,FlashFX 3.00,,,,,
+P505iS,mova,Panasonic,,,FAT16,,FlashFX 3.00,,,,,
+P252iS,mova,Panasonic,,,,,,,,,,
+P506iC,mova,Panasonic,,,FAT,,P506iC,,,,,
+P253i,mova,Panasonic,,,,,,,,,,
+P506iCII,mova,Panasonic,,,,,,,,,,
+SH505i,mova,Sharp,NOR,,FAT16,,00F0F0 Structure,-,,,,
+SH505iS,mova,Sharp,NOR,,FAT16,,00F0F0 Structure,-,,,,
+SH506iC,mova,Sharp,NOR,LRS1B35B-f2,FAT16,,00F0F0 Structure,-,fs_path,JAVA,keitai-tools,ftl_no_extension
+SO503i,mova,Sony Ericsson,,,,,,,,,,
+SO503iS,mova,Sony Ericsson,,,,,,,,,,
+SO504i,mova,Sony Ericsson,NOR,,Old Sony Ericsson Custom FS,,-,,,,,
+SO505i,mova,Sony Ericsson,NAND,,FAT,,SO505i FTL,,,,,
+SO505iS,mova,Sony Ericsson,NAND,,FAT,,SO505i FTL,,,,,
+SO506iC,mova,Sony Ericsson,NAND,,FAT,,SO505i FTL,,,,,
+SO506i,mova,Sony Ericsson,NAND,,FAT,,SO505i FTL,,,,,
+SO506iS,mova,Sony Ericsson,NAND,,FAT,,SO505i FTL,,,,,
+930CA,Softbank_Vodafone,Casio,NAND,,JFFS2,,-,,,,,fs_extension
+830CA,Softbank_Vodafone,Casio,,,JFFS2,,-,,,,,fs_extension
+V301D,Softbank_Vodafone,Mitsubishi,,,-,,D505i Structure,-c,,,,fs_extension
+V401D,Softbank_Vodafone,Mitsubishi,,,-,,D505i Structure,,,,,fs_extension
+V101D,Softbank_Vodafone,Mitsubishi,,,,,,,,,,fs_extension
+V102D,Softbank_Vodafone,Mitsubishi,,,,,,,,,,fs_extension
+V66,Softbank_Vodafone,Motorola,,,Intel FHS (CG2),,-,,,,,fs_extension
+702MO,Softbank_Vodafone,Motorola,,,Intel FHS (CG2),,-,,,,,fs_extension
+702sMO,Softbank_Vodafone,Motorola,,,Intel FHS (CG2),,-,,,,,fs_extension
+V-N701,Softbank_Vodafone,NEC,,,,,,,,,,fs_extension
+802N,Softbank_Vodafone,NEC,NAND,,Customized FAT16,,SSR200,,,,,fs_extension
+703N,Softbank_Vodafone,NEC,NAND,,Customized FAT16,,SSR200,,,,,fs_extension
+804N,Softbank_Vodafone,NEC,,,,,,,,,,fs_extension
+705N,Softbank_Vodafone,NEC,,,,,,,,,,fs_extension
+706N,Softbank_Vodafone,NEC,,,,,,,,,,fs_extension
+820N,Softbank_Vodafone,NEC,,,JFFS2,,-,,,,,fs_extension
+821N,Softbank_Vodafone,NEC,,,JFFS2,,-,,,,,fs_extension
+821N GLA,Softbank_Vodafone,NEC,,,JFFS2,,-,,,,,fs_extension
+930N,Softbank_Vodafone,NEC,NAND,,JFFS2,,-,,,,,fs_extension
+830N,Softbank_Vodafone,NEC,,,JFFS2,,-,,,,,fs_extension
+931N,Softbank_Vodafone,NEC,NAND,,JFFS2,,-,,,,,fs_extension
+831N,Softbank_Vodafone,NEC,,,JFFS2,,-,,,,,fs_extension
+940N,Softbank_Vodafone,NEC,,,JFFS2,,-,,,,,fs_extension
+840N,Softbank_Vodafone,NEC,,,JFFS2,,-,,,,,fs_extension
+740N,Softbank_Vodafone,NEC,,,JFFS2,,-,,,,,fs_extension
+841N,Softbank_Vodafone,NEC,,,JFFS2,,-,,,,,fs_extension
+741N,Softbank_Vodafone,NEC,NAND,,JFFS2,,-,,,,,fs_extension
+001N,Softbank_Vodafone,NEC,,,JFFS2,,-,,,,,fs_extension
+705P,Softbank_Vodafone,Panasonic,NOR,,C5A3 Structure,,-,-s 1 -w 1,,,,fs_extension
+705Px,Softbank_Vodafone,Panasonic,NOR,,C5A3 Structure,,-,-s 1 -w 1,,,,fs_extension
+706P,Softbank_Vodafone,Panasonic,NOR,,C5A3 Structure,,-,,,,,fs_extension
+810P,Softbank_Vodafone,Panasonic,NOR,,C5A3 Structure,,-,-s 1 -w 2,,,,fs_extension
+920P,Softbank_Vodafone,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,,,,fs_extension
+820P,Softbank_Vodafone,Panasonic,NOR,,C5A3 Structure,,-,-s 1 -w 2,,,,fs_extension
+921P,Softbank_Vodafone,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,,,,fs_extension
+821P,Softbank_Vodafone,Panasonic,NOR,,C5A3 Structure,,-,-s 1 -w 2,,,,fs_extension
+822P,Softbank_Vodafone,Panasonic,NOR,,C5A3 Structure,,-,-s 1 -w 2,,,,fs_extension
+823P,Softbank_Vodafone,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,,,,fs_extension
+824P,Softbank_Vodafone,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,,,,fs_extension
+930P,Softbank_Vodafone,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,,,,fs_extension
+830P,Softbank_Vodafone,Panasonic,NOR,,C5A3 Structure,,-,-s 1 -w 2,,,,fs_extension
+931P,Softbank_Vodafone,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,,,,fs_extension
+831P,Softbank_Vodafone,Panasonic,NOR,,C5A3 Structure,,-,-s 1 -w 2,,,,fs_extension
+832P,Softbank_Vodafone,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,,,,fs_extension
+940P,Softbank_Vodafone,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,,,,fs_extension
+840P,Softbank_Vodafone,Panasonic,NOR,,C5A3 Structure,,-,-s 2 -w 2,,,,fs_extension
+840P for Biz,Softbank_Vodafone,Panasonic,NOR,,C5A3 Structure,,-,-s 2 -w 2,,,,fs_extension
+941P,Softbank_Vodafone,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,,,,fs_extension
+841P,Softbank_Vodafone,Panasonic,NOR,,C5A3 Structure,,-,-s 2 -w 2,,,,fs_extension
+842P,Softbank_Vodafone,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,,,,fs_extension
+942P,Softbank_Vodafone,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,,,,fs_extension
+001P,Softbank_Vodafone,Panasonic,OneNAND,,Samsung RFS,,XSR2,B,,,,fs_extension
+002P,Softbank_Vodafone,Panasonic,NOR,,C5A3 Structure,,-,-s 2 -w 2,,,,fs_extension
+103P,Softbank_Vodafone,Panasonic,OneNAND,,Samsung RFS,,FSR_ll,,,,,fs_extension
+301P,Softbank_Vodafone,Panasonic,EMMC,,ext3,"0x1900000, 0x1A900000",N/A ,,,,,fs_extension
+401PM,Softbank_Vodafone,Panasonic,EMMC,,ext3,"0x1900000, 0x1A900000",N/A ,,,,,fs_extension
+804SS,Softbank_Vodafone,Samsung,,,,,,,,,,fs_extension
+705SC,Softbank_Vodafone,Samsung,,,,,,,,,,fs_extension
+706SC,Softbank_Vodafone,Samsung,,,,,,,,,,fs_extension
+707SC,Softbank_Vodafone,Samsung,,,,,,,,,,fs_extension
+707SCII,Softbank_Vodafone,Samsung,,,KFAT,,XSR1 (Other),,,,,fs_extension
+708SC,Softbank_Vodafone,Samsung,,,,,,,,,,fs_extension
+709SC,Softbank_Vodafone,Samsung,,,,,,,,,,fs_extension
+730SC,Softbank_Vodafone,Samsung,,,,,,,,,,fs_extension
+731SC,Softbank_Vodafone,Samsung,,,,,,,,,,fs_extension
+740SC,Softbank_Vodafone,Samsung,,,,,,,,,,fs_extension
+805SC,Softbank_Vodafone,Samsung,,,,,,,,,,fs_extension
+820SC,Softbank_Vodafone,Samsung,,,,,,,,,,fs_extension
+821SC,Softbank_Vodafone,Samsung,,,,,,,,,,fs_extension
+830SC,Softbank_Vodafone,Samsung,,,,,,,,,,fs_extension
+840SC,Softbank_Vodafone,Samsung,,,,,,,,,,fs_extension
+920SC,Softbank_Vodafone,Samsung,,,,,,,,,,fs_extension
+930SC,Softbank_Vodafone,Samsung,,,,,,,,,,fs_extension
+931SC,Softbank_Vodafone,Samsung,,,,,,,,,,fs_extension
+940SC,Softbank_Vodafone,Samsung,,,,,,,,,,fs_extension
+941SC,Softbank_Vodafone,Samsung,,,,,,,,,,fs_extension
+001SC,Softbank_Vodafone,Samsung,,,,,,,,,,fs_extension
+V401SA,Softbank_Vodafone,Sanyo,,,,,,,,,,fs_extension
+V-SA701,Softbank_Vodafone,Sanyo,,,,,,,,,,fs_extension
+V801SA,Softbank_Vodafone,Sanyo,,,,,,,,,,fs_extension
+V201SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+V301SH,Softbank_Vodafone,Sharp,SuperAND,LRS1B26A-a,-,,V601SH SuperAND FTL,,,,,fs_extension
+V302SH,Softbank_Vodafone,Sharp,,,-,,00F0F0 Structure,-n 9,,,,fs_extension
+V401SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+V402SH,Softbank_Vodafone,Sharp,NOR,LRS1B37-f2,-,,00F0F0 Structure,-,,,,fs_extension
+V403SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+V501SH,Softbank_Vodafone,Sharp,,,FAT,,00F0F0 Structure,-n 9,jad_same_filename,,,fs_extension
+V601SH,Softbank_Vodafone,Sharp,SuperAND,LRS1B28-a,FAT,,V601SH SuperAND FTL,,,,,fs_extension
+V602SH,Softbank_Vodafone,Sharp,,,FAT,,00F0F0 Structure,-,,,,fs_extension
+V603SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+V604SH,Softbank_Vodafone,Sharp,,,FAT,,00F0F0 Structure,-n 9,,,,fs_extension
+V801SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+902SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+802SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+903SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+703SH,Softbank_Vodafone,Sharp,,,FAT,,00F0F0 Structure,-n 9,,JAVA,,fs_extension
+703SHf,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+904SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+804SH,Softbank_Vodafone,Sharp,,,FAT,,804SH SuperAND FTL,,,,,fs_extension
+905SH,Softbank_Vodafone,Sharp,,,FAT,,804SH SuperAND FTL,,,,,fs_extension
+805SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+705SH,Softbank_Vodafone,Sharp,,,FAT,,804SH SuperAND FTL,,,,,fs_extension
+910SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+810SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+911SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+811SH,Softbank_Vodafone,Sharp,,,FAT,,804SH SuperAND FTL,,,,,fs_extension
+912SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+812SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+812SHs,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+812SHsII,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+913SH,Softbank_Vodafone,Sharp,,,FAT,,804SH SuperAND FTL,,,,,fs_extension
+813SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+814SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+815SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+816SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+920SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+822SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+820SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+821SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+921SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+821SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+DM001SH,Softbank_Vodafone,Sharp,,,FAT,,804SH SuperAND FTL,,,,,fs_extension
+922SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+923SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+823SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+DM002SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+824SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+DM003SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+825SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+923SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+923SH TAIWAN,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+930SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+930SH TAIWAN,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+830SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+830SH for Biz,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+830SHs,Softbank_Vodafone,Sharp,,,FAT,,934SH FTL,,,,,fs_extension
+931SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+831SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+DM004SH,Softbank_Vodafone,Sharp,,,FAT,,934SH FTL,,,,,fs_extension
+DM006SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+831SH for Biz,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+831SH KT,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+831SHs,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+932SH,Softbank_Vodafone,Sharp,,,FAT,,934SH FTL,,,,,fs_extension
+832SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+832SH for Biz,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+832SHs,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+933SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+934SH,Softbank_Vodafone,Sharp,,,FAT,,934SH FTL,,,,,fs_extension
+935SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+936SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+940SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+840SH,Softbank_Vodafone,Sharp,,,FAT,,934SH FTL,,,,,fs_extension
+941SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+841SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+942SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+DM005SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+842SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+943SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+843SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+944SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+945SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+DM007SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+001SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+DM008SH,Softbank_Vodafone,Sharp,,,FAT,,934SH FTL,,,,,fs_extension
+002SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+004SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+105SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+108SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+109SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+202SH,Softbank_Vodafone,Sharp,,,FAT,,202SH FTL,,,,,fs_extension
+301SH,Softbank_Vodafone,Sharp,,,,,,,,,,fs_extension
+V301T,Softbank_Vodafone,Toshiba,,,,,,,,,,fs_extension
+V302T,Softbank_Vodafone,Toshiba,,,,,,,,,,fs_extension
+V303T,Softbank_Vodafone,Toshiba,,,,,,,,,,fs_extension
+V401T,Softbank_Vodafone,Toshiba,NAND,TV00678002BAGD-n,FAT16,,SO505i FTL,,,,,fs_extension
+V501T,Softbank_Vodafone,Toshiba,NOR,PF38F4455LLYBQ2-f2,FAT,,V501T FTL,,,,,fs_extension
+V502T,Softbank_Vodafone,Toshiba,NOR,PF38F4455LLYBQ2-f2,FAT,,V501T FTL,,,,,fs_extension
+V601T,Softbank_Vodafone,Toshiba,NAND,TY00788022AAGD-n,FAT16,,SO505i FTL,,,,,fs_extension
+V602T,Softbank_Vodafone,Toshiba,,,,,,,,,,fs_extension
+V603T,Softbank_Vodafone,Toshiba,NOR,PF38F4455LLYBQ1-f2,FAT,,V501T FTL,,,,,fs_extension
+V604T,Softbank_Vodafone,Toshiba,NOR,PF38F4455LLYBQ1-f2,FAT,,V501T FTL,,,,,fs_extension
+902T,Softbank_Vodafone,Toshiba,,,,,,,,,,fs_extension
+903T,Softbank_Vodafone,Toshiba,,,,,,,,,,fs_extension
+802T,Softbank_Vodafone,Toshiba,,,,,,,,,,fs_extension
+904T,Softbank_Vodafone,Toshiba,,,,,,,,,,fs_extension
+705T,Softbank_Vodafone,Toshiba,,,,,,,,,,fs_extension
+910T,Softbank_Vodafone,Toshiba,,,,,,,,,,fs_extension
+810T,Softbank_Vodafone,Toshiba,,,,,,,,,,fs_extension
+911T,Softbank_Vodafone,Toshiba,eSD,TYAD00AC00BTGK-sd,FAT,,-,,,,,fs_extension
+811T,Softbank_Vodafone,Toshiba,,,,,,,,,,fs_extension
+912T,Softbank_Vodafone,Toshiba,,,,,,,,,,fs_extension
+812T,Softbank_Vodafone,Toshiba,,,,,,,,,,fs_extension
+813T,Softbank_Vodafone,Toshiba,,,,,,,,,,fs_extension
+814T,Softbank_Vodafone,Toshiba,,,,,,,,,,fs_extension
+815T,Softbank_Vodafone,Toshiba,,,FAT16,,Toshiba FTL,,,,,fs_extension
+920T,Softbank_Vodafone,Toshiba,,,,,,,,,,fs_extension
+820T,Softbank_Vodafone,Toshiba,,,,,,,,,,fs_extension
+921T,Softbank_Vodafone,Toshiba,,,,,,,,,,fs_extension
+821T,Softbank_Vodafone,Toshiba,,,,,,,,,,fs_extension
+822T,Softbank_Vodafone,Toshiba,,,,,,,,,,fs_extension
+823T,Softbank_Vodafone,Toshiba,,,,,,,,,,fs_extension
+824T,Softbank_Vodafone,Toshiba,,,,,,,,,,fs_extension
+830T,Softbank_Vodafone,Toshiba,,,,,,,,,,fs_extension
+831T,Softbank_Vodafone,Toshiba,,,,,,,,,,fs_extension
+832T,Softbank_Vodafone,Toshiba,,,,,,,,,,fs_extension
+301Z,Softbank_Vodafone,ZTE,,,,,,,,,,fs_extension
+302ZT,Softbank_Vodafone,ZTE,,,,,,,,,,fs_extension
