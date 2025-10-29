@@ -1,5 +1,5 @@
 # keitaiFSextractor
-Thanks: [@irdkwia](https://github.com/irdkwia), [@xyzz](https://github.com/xyzz), [@usernameak](https://github.com/usernameak), [@memory-hunter](https://github.com/memory-hunter), [@bkerler](https://github.com/bkerler), authors of other tools, and the keitaiwiki community
+Thanks: [@irdkwia](https://github.com/irdkwia), [@xyzz](https://github.com/xyzz), [@usernameak](https://github.com/usernameak), [@memory-hunter](https://github.com/memory-hunter), [@bkerler](https://github.com/bkerler), [@Crawlerop](https://github.com/Crawlerop), authors of other tools, and the keitaiwiki community
 ## Environment
 - Windows only.
 - Python must be installed and available in your PATH.
