@@ -513,7 +513,8 @@ def get_oob_paths(input_files):
         input_name = os.path.basename(input_file)
 
         candidates = [os.path.join(input_dir, f"{os.path.splitext(input_name)[0]}.oob")]
-        if "_" in input_name: candidates.append(os.path.join(input_dir, f"{'_'.join(input_name.split('_')[:-1])}_oob.bin"))
+        if input_name.lower().endswith("_data.bin"):
+            candidates.append(os.path.join(input_dir, f"{'_'.join(input_name.split('_')[:-1])}_oob.bin"))
         
         for candidate in candidates:
             if os.path.isfile(candidate):
