@@ -28,7 +28,7 @@ def main(input_files, model_infos, skip_confirm=False, model_name=None, fullsize
     ftl_parameter = read_model_info("FTL_Parameter", model_info)
     filesystem = read_model_info("File_System", model_info)
     fs_parameter = read_model_info("FS_Parameter", model_info)
-    java_path = read_model_info("Java_Path", model_info)
+    java_path = read_model_info("Java_Path", model_info).replace("\\", os.sep)
     java_tool = read_model_info("Java_Tool", model_info)
     java_type = read_model_info("Java_Type", model_info)
     storage_type = read_model_info("Storage_Type", model_info)
@@ -135,11 +135,10 @@ def main(input_files, model_infos, skip_confirm=False, model_name=None, fullsize
         out_java = None
         if java_type == "fs_path":
             for fs_root in fs_roots:
-                candidate_path = os.path.join(fs_root, java_path)
-                if os.path.isdir(candidate_path):
-                    print(f"Found: {candidate_path}")
+                if (p := find_case_insensitive(fs_root, java_path)):
+                    print(f"Found: {p}")
                     out_java = os.path.join(collected_java_dir, os.path.basename(java_path))
-                    shutil.copytree(candidate_path, out_java, dirs_exist_ok=True)
+                    shutil.copytree(p, out_java, dirs_exist_ok=True)
                     break
             else:
                 raise ValueError(f"The Java folder could not be obtained, CSV's value: {java_path}")
@@ -242,6 +241,22 @@ def parse_ktfolder(folder_name):
     type = "_".join(parts[4:])
     return model, type
 
+def find_case_insensitive(root, target_path):
+    parts = target_path.replace("\\", os.sep).split(os.sep)
+    current = root
+    for part in parts:
+        if not os.path.exists(current):
+            return None
+        found = False
+        for entry in os.listdir(current):
+            if entry.lower() == part.lower():
+                current = os.path.join(current, entry)
+                found = True
+                break
+        if not found:
+            return None
+    
+    return current
 
 def convert_ftl(input_files, input_oobs, ftl_type, out_dir, ftl_parameter):
     match ftl_type:
@@ -543,9 +558,3 @@ if __name__ == "__main__":
     input_files = [os.path.abspath(f) for f in args.input_file]
 
     main(input_files, model_infos, args.skip_confirm, args.forced_model, args.fullsize_7z)
-
-
-
-
-
-
