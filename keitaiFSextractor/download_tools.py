@@ -2,6 +2,7 @@ import utils.download as download
 from pathlib import Path
 import shutil
 import subprocess
+import os
 
 TOOL_REPOSITORIES = [
     {
@@ -81,6 +82,14 @@ TOOL_REPOSITORIES = [
     },
 ]
 
+if os.name == "posix":
+    TOOL_REPOSITORIES.append(
+        {
+            "toolname": "keitai_fs_tools",
+            "repo_owner": "usernameak",
+            "ref": "master",
+        },
+    )
 
 if __name__ == "__main__":
     root = Path(__file__).resolve().parent / "tools"
@@ -88,44 +97,45 @@ if __name__ == "__main__":
     if not root.is_dir():
         raise FileNotFoundError("The tools folder that should be there is missing.")
 
-    # sleuthkit
-    output_dir = root / "sleuthkit"
-    res = download.download_latest_github_release(
-        repo_owner="sleuthkit",
-        repo_name="sleuthkit",
-        asset_pattern=r"sleuthkit-.*-win32\.zip$",
-        output_folder=str(output_dir),
-        enable_extract_zip=True,
-        force=False,
-    )
-    print(f"SleuthKit result: {res}")
-    print("=" * 40)
+    if os.name == "nt":
+        # sleuthkit
+        output_dir = root / "sleuthkit"
+        res = download.download_latest_github_release(
+            repo_owner="sleuthkit",
+            repo_name="sleuthkit",
+            asset_pattern=r"sleuthkit-.*-win32\.zip$",
+            output_folder=str(output_dir),
+            enable_extract_zip=True,
+            force=False,
+        )
+        print(f"SleuthKit result: {res}")
+        print("=" * 40)
 
-    # rfs_dumper
-    output_dir = root / "rfs_dumper"
-    res = download.download_latest_github_release(
-        repo_owner="usernameak",
-        repo_name="keitai_fs_tools",
-        asset_pattern=r"rfs_dumper_xsr1app\.exe$",
-        output_folder=str(output_dir),
-        enable_extract_zip=False,
-        force=False,
-    )
-    print(f"rfs_dumper result: {res}")
-    print("=" * 40)
+        # rfs_dumper
+        output_dir = root / "rfs_dumper"
+        res = download.download_latest_github_release(
+            repo_owner="usernameak",
+            repo_name="keitai_fs_tools",
+            asset_pattern=r"rfs_dumper_xsr1app\.exe$",
+            output_folder=str(output_dir),
+            enable_extract_zip=False,
+            force=False,
+        )
+        print(f"rfs_dumper result: {res}")
+        print("=" * 40)
 
-    # toshiba_remap
-    output_dir = root / "toshiba_remap"
-    res = download.download_latest_github_release(
-        repo_owner="usernameak",
-        repo_name="keitai_fs_tools",
-        asset_pattern=r"toshiba_remap\.exe$",
-        output_folder=str(output_dir),
-        enable_extract_zip=False,
-        force=False,
-    )
-    print(f"toshiba_remap result: {res}")
-    print("=" * 40)
+        # toshiba_remap
+        output_dir = root / "toshiba_remap"
+        res = download.download_latest_github_release(
+            repo_owner="usernameak",
+            repo_name="keitai_fs_tools",
+            asset_pattern=r"toshiba_remap\.exe$",
+            output_folder=str(output_dir),
+            enable_extract_zip=False,
+            force=False,
+        )
+        print(f"toshiba_remap result: {res}")
+        print("=" * 40)
 
 
     def download_github_helper(toolname, repo_owner, ref="main"):
@@ -164,4 +174,10 @@ if __name__ == "__main__":
                 "Errors may occur if the API rate limit is reached."
             )
             download_github_helper(toolname=repository["toolname"], repo_owner=repository["repo_owner"], ref=repository["ref"])
+
+    # compile
+    if os.name == "posix":
+        commands = ["dub", "build", "--force"]
+        subprocess.run(commands, check=True, cwd=os.path.join(root, "keitai_fs_tools", "xsr1"))
+        
 
